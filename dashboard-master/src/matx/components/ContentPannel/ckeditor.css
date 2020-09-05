@@ -1,0 +1,33 @@
+.ck-editor {
+	width: 700px;
+	height: 200px;
+	
+}
+
+@media (max-width: 1200px) {
+	.ck-editor {
+		width: 350px;
+		height: 200px;
+	}
+}
+
+.ck-editor__editable_inline {
+    min-height: 130px;
+}
+
+.ck.ck-block-toolbar-button {
+    transform: translateX( -10px );
+}
+.ck[dir="rtl"] .ck-block-toolbar-button {
+    transform: translateX( 10px );
+}
+
+.ck.ck-content ul,
+.ck.ck-content ul li{
+  list-style-type: inherit;
+}
+
+.ck.ck-content ul {
+  /* Default user agent stylesheet, you can change it to your needs. */
+  padding-left: 40px;
+}
